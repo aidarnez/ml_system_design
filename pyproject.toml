@@ -1,0 +1,14 @@
+[project]
+name = "risk-q-a"
+version = "1.0.0"
+
+[tool.ruff]
+line-length = 88
+select = [
+  "E",  # pycodestyle
+  "F",  # Pyflakes
+  "I",  # isort
+]
+
+[tool.ruff.format]
+enabled = true
